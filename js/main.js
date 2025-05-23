@@ -62,7 +62,7 @@ function toggleChatbox() {
     chatbox.style.display = isChatboxVisible ? "block" : "none";
 };
  // Nomor telepon dinamis, bisa diubah sesuai kebutuhan
- const phoneNumber = '085798858438';
+ const phoneNumber = '+6285798858438';
  const waLink = document.getElementById('wa-link');
  waLink.href = `https://wa.me/${phoneNumber}`;
 
