@@ -25,7 +25,7 @@ window.onscroll = () => {
 document.getElementById('download-btn').addEventListener('click', function(event) {
     event.preventDefault();
     const link = document.createElement('a');
-    link.href = 'assets/Curiculum Vitae.pdf'; // Ganti dengan URL file yang ingin Anda unduh
+    link.href = '/assets/Curiculum Vitae.pdf'; // Ganti dengan URL file yang ingin Anda unduh
     link.download = 'CV_Zeapli Pebriawan.pdf'; // Nama file yang akan diunduh
     link.click();
 });
